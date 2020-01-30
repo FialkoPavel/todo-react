@@ -1,0 +1,33 @@
+.btn_add{
+    color: lightslategray;
+    margin: 0px 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #1e67a0;
+    font-family: 'Comfortaa', cursive;
+    background-color: #274458eb;
+    line-height: 1.5;
+    position: absolute;
+    right: 0;
+    width: 192px;
+}
+.btnTodo{
+    width: 487px;
+    position: relative;
+    padding-top: 13px;
+}
+.btn_add:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.input_add{
+    background-color: #274458eb;
+    /*line-height: 1.5;*/
+    width: 289px;
+    color: lightslategray;
+    border: 2px solid #1e67a0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 5px;
+}

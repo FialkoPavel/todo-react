@@ -1,0 +1,44 @@
+.btn_group{
+    /*position: absolute;*/
+    /*top: 47px;*/
+    /*right: 29px;*/
+
+}
+.btn_all{
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid #1e67a0;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 2px;
+    background-color: #274458eb;
+    /*position: relative;*/
+}
+.btn_all:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.3);
+}
+.btn_active{
+    margin-left: 2px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid #1e67a0;
+    font-family: 'Comfortaa', cursive;
+    background-color: #274458eb;
+}
+.btn_active:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.3);
+}
+.btn_done{
+    color: lightslategray;
+    margin-left: 2px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid #1e67a0;
+    font-family: 'Comfortaa', cursive;
+    background-color: #274458eb;
+}
+.btn_done:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 5px 7px rgba(0,0,0,0.3);
+}

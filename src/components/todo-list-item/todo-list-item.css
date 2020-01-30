@@ -1,0 +1,61 @@
+.btn_order_del{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: brown;
+    border-radius: 7px;
+    border: 2px solid #1e67a0;
+    line-height: 30px;
+    padding: 0;
+    margin-left: auto;
+    background-color: #274458eb;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.btn_order_del:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    border: 2px solid #1e67a0;
+}
+.li_order{
+    line-height: 2.5;
+    border-bottom: 1px solid black;
+    height: 40px;
+    padding-left: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_order_imp{
+    margin-top: 4px;
+    background-color: #274458eb;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    color: darkcyan;
+    border-radius: 7px;
+    border: 2px solid #1e67a0;
+    line-height: 30px;
+    padding: 0;
+}
+.btn_order_imp:hover{
+    background-color: #8fb5da;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    border: 2px solid #1e67a0;
+}
+.li_order_item{
+    cursor: pointer;
+}
+.important{
+    line-height: 2.5;
+    color: darkcyan;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+    height: 40px;
+    padding-left: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.done {
+    text-decoration: line-through;
+}
+

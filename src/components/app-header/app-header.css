@@ -1,0 +1,42 @@
+h1{
+    font-size: 33px;
+    font-weight: bold;
+}
+.header_text{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.text_header{
+    margin: 0;
+}
+.pencil {
+    cursor: pointer;
+    position: absolute;
+    left: 229px;
+    top: 11px;
+    filter: invert(1);
+}
+
+.pencil:hover {
+    animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-10deg);
+    }
+    20%, 40% {
+        transform: rotate(10deg);
+    }
+}
+
+p, h1 {
+    margin: 0;
+}

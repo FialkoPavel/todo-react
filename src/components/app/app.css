@@ -1,0 +1,20 @@
+body{
+    /*background: linear-gradient(to right, rgb(55, 122, 199), rgb(71, 124, 194), rgb(87, 126, 189), rgb(103, 128, 184), rgb(119, 130, 179), rgb(135, 132, 174), rgb(150, 133, 168), rgb(166, 135, 163), rgb(182, 137, 158), rgb(198, 139, 153), rgb(214, 141, 148), rgb(230, 143, 143))*/
+    background: black;
+    color: #dacece;
+}
+button, input {
+    outline: none;
+}
+.todoAll{
+    background: #1d3444;
+    font-family: 'Comfortaa', cursive;
+    width: 510px;
+    margin: 0 auto;
+    /*height: 100%;*/
+    transform: translateY(50%);
+    border: 2px solid #1e67a0;
+    border-radius: 21px;
+    padding: 10px 5px 33px 10px;
+}
+

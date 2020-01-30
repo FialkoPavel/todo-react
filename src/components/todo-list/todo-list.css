@@ -1,0 +1,31 @@
+.ul_order{
+    max-height: 208px;
+    overflow-y: scroll;
+    width: 487px;
+    padding-top: 10px;
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    border-width: 1px 1px 1px 2px;
+    border-color: #777;
+    background-color: lightslategray;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
